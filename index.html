@@ -38,7 +38,8 @@
         </thead>
         <tbody>
             <tr>
-                <th colspan="4" scope="col"><button onclick="clearResult()">AC</button></th>
+                <td colspan="3" scope="col"><button onclick="clearResult()">AC</button></td>
+                <td><button id="divide" onclick="processKeyPress('/')">/</button></td>
             </tr>
             <tr>
                 <td><button id="7" onclick="processKeyPress(7)">7</button></td>
@@ -50,7 +51,7 @@
                 <td><button id="4" onclick="processKeyPress(4)">4</button></td>
                 <td><button id="5" onclick="processKeyPress(5)">5</button></td>
                 <td><button id="6" onclick="processKeyPress(6)">6</button></td>
-                <td><button id="minus">-</button></td>
+                <td><button id="minus" onclick="processKeyPress('-')">-</button></td>
             </tr>
             <tr>
                 <td><button id="1" onclick="processKeyPress(1)">1</button></td>
@@ -62,7 +63,7 @@
                 <td><button id="0" onclick="processKeyPress(0)">0</button></td>
                 <td><button id="dot" onclick="processKeyPress('.')">.</button></td>
                 <td><button id="backspace">d</button></td>
-                <td><button id="equal">=</button></td>
+                <td><button id="equal">=</button></td> <!-- doesn't do anything for now-->
             </tr>
         </tbody>
     </table>
