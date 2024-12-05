@@ -1,0 +1,14 @@
+th, td {
+    text-align: center;
+    
+}
+
+button {
+    width:100%;
+    
+}
+
+button:hover{
+    background-color: rgb(103, 153, 196);
+}
+
